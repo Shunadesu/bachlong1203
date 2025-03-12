@@ -33,13 +33,13 @@ const ProductIPhoneList = () => {
 
   return (
     <div className="w-full flex flex-col justify-center items-center"> 
-      <div className="slider-container xl:max-w-[1440px] lg:max-w-[1024px] md:max-w-[768px] sm:max-w-[640px] max-w-[400px] w-full">
+      <div className="slider-container xl:max-w-[1440px] lg:max-w-[1024px] md:max-w-[768px] sm:max-w-[640px] max-w-[500px] w-full">
         <Slider {...settings} className="cursor-grab">
           {data.flatMap((product) =>
             product.items.map((item, index) => (
               <div
                 key={index}
-                className="border items-center xl:!w-[265px] lg:!w-[245px] md:!w-[225px] w-full border-gray-200 bg-white p-4 !rounded-lg !flex gap-4 flex-col transition-all duration-300 hover:shadow-xl hover:border-red-400 md:justify-self-center "
+                className="border items-center xl:max-w-[265px] lg:max-w-[245px] md:max-w-[225px] max-w-[200px] w-full border-gray-200 bg-white p-4 !rounded-lg !flex gap-4 flex-col transition-all duration-300 hover:shadow-xl hover:border-red-400 md:justify-self-center "
               >
                 <div className="relative flex transition-all duration-300 xl:w-[160px] xl:h-[160px] lg:w-[150px] lg:h-[150px] sm:w-[120px] sm:h-[120px] hover:scale-105">
                   <img

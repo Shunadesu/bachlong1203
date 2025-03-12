@@ -7,7 +7,8 @@ export const useSlidesToShow = () => {
     const updateSlides = () => {
       if (window.innerWidth > 1440) setSlidesToShow(5);
       else if (window.innerWidth > 1024) setSlidesToShow(4);
-      else if (window.innerWidth > 768) setSlidesToShow(3);
+      else if (window.innerWidth > 680) setSlidesToShow(3);
+      else if (window.innerWidth > 368) setSlidesToShow(2);
       else setSlidesToShow(1);
     };
 

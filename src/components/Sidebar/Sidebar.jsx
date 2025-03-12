@@ -19,7 +19,7 @@ const Sidebar = () => {
                             <NavLink
                                 to={link.path}
                                 className={({ isActive }) =>
-                                    `block p-3 text-center rounded-md bg-white transition-colors border duration-200 ${isActive ? "bg-yellow-500 text-white border border-yellow-700" : "hover:bg-yellow-500 hover:text-white border border-yellow-700"}`
+                                    `block p-3 text-[12px] lg:text-[16px] text-center rounded-md bg-white transition-colors border duration-200 ${isActive ? "bg-yellow-500 text-white border border-yellow-700" : "hover:bg-yellow-500 hover:text-white border border-yellow-700"}`
                                 }
                             >
                                 {link.name}
