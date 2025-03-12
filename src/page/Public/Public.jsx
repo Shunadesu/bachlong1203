@@ -22,38 +22,16 @@ const Public = () => {
         </div>
 
         <div className="max-w-[1440px] flex flex-col justify-center items-center px-8 w-full py-2 relative gap-4">
-          <BlurText
-            text="Sản Phẩm Android"
-            delay={150}
-            animateBy="words"
-            direction="top"
-            onAnimationComplete={handleAnimationComplete}
-            className="text-[28px] mb-8 uppercase"
-          />
+          
           <ProductAndroidList />
         </div>
 
         <div className="max-w-[1440px] flex flex-col justify-center items-center px-8 w-full py-2 relative gap-4">
-          <BlurText
-            text="Sản Phẩm Iphone"
-            delay={150}
-            animateBy="words"
-            direction="top"
-            onAnimationComplete={handleAnimationComplete}
-            className="text-[28px] mb-8 uppercase"
-          />
+          
           <ProductIPhoneList />
         </div>
 
         <div className="max-w-[1440px] flex flex-col justify-center items-center px-8 w-full py-2 relative gap-4">
-          <BlurText
-            text="Máy cũ nhưng xịn xịn"
-            delay={150}
-            animateBy="words"
-            direction="top"
-            onAnimationComplete={handleAnimationComplete}
-            className="text-[28px] mb-8 uppercase"
-          />
           <ProductMay99List />
         </div>
 
